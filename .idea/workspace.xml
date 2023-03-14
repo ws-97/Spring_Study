@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="690d574b-8f8b-4ec2-bc01-7f13439d4853" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Aop/AOPInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Aop/AOPServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Aop/AopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Aop/IAOPServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/annoation/AnnotationInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/container/CustomerProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/container/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/container/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/container/XMLFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/container/XMLInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/container/XmlCollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/CleanAir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/CustomDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/CustomDescriptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/DirtyAir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/IAir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/DyncProxyServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/ServiceImplA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ioc/FXInjectNewsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ioc/FXNewProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ioc/FXNewsBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ioc/IFXNewListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ioc/IFXNewPersistener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scope/CusBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scope/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scope/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/dao/LoginLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/domain/LoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/web/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/smart/web/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/ApplicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/smart-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/smart-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp_my/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp_my/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2MjETKxSwdpTJSGWWw8166IwWiM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/ws/Downloads/guide-idea-plugin-main 2/Spring_Study/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37011495",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "8e1fcfffd91fc85986eab311ad88a228"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.ioc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resource" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.container" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UserServiceTest">
+    <configuration name="AopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Aop.AopTest" />
+      <module name="Spring_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.scope.Test" />
+      <module name="Spring_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlCollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.container.XmlCollectionsDemo" />
+      <module name="Spring_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.精通Spring4.x企业应用开发实战.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.精通Spring4.x企业应用开发实战.service" />
+      <option name="MAIN_CLASS_NAME" value="org.精通Spring4.x企业应用开发实战.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.hasMatchUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.精通Spring4.x企业应用开发实战.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.精通Spring4.x企业应用开发实战.service" />
+      <option name="MAIN_CLASS_NAME" value="org.精通Spring4.x企业应用开发实战.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="hasMatchUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UserServiceTest" />
+        <item itemvalue="TestNG.UserServiceTest.hasMatchUser" />
+        <item itemvalue="Application.AopTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.XmlCollectionsDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="690d574b-8f8b-4ec2-bc01-7f13439d4853" name="Changes" comment="" />
+      <created>1678272600740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678272600740</updated>
+      <workItem from="1678272602199" duration="389000" />
+      <workItem from="1678272999734" duration="5860000" />
+      <workItem from="1678324477534" duration="765000" />
+      <workItem from="1678325250777" duration="16972000" />
+      <workItem from="1678675190401" duration="7166000" />
+      <workItem from="1678690931299" duration="1591000" />
+      <workItem from="1678692544112" duration="9594000" />
+      <workItem from="1678702265950" duration="4663000" />
+      <workItem from="1678709548671" duration="3245000" />
+      <workItem from="1678757239378" duration="5515000" />
+      <workItem from="1678762776131" duration="10138000" />
+      <workItem from="1678781026753" duration="10164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/smart/dao/LoginLogDao.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

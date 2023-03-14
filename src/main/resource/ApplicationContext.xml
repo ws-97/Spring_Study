@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="org.example.example"/>
+    <bean id="CleanAir" class="com.example.example.CleanAir">
+        <qualifier value="cleanair"/>
+    </bean>
+    <bean id="DirtyAir" class="com.example.example.DirtyAir">
+        <qualifier value="dirtyair"/>
+    </bean>
+    <bean id="person" class="com.example.example.Person"/>
+    <!--基于XML配置Bean -->
+    <bean id="user" class="com.example.container.UserBean"/>
+
+    <bean id="xmlinstance" class="com.example.container.XMLInstance"
+    destroy-method="DestroyMethod" init-method="InitMethod">
+        <!--name表示属性名，value用来设置基本数据类型的属性值，ref表示引用
+     -->
+        <property name="air" ref="CleanAir"></property>
+        <property name="name"   value="abc"></property>
+    </bean>
+
+    <!--构造函数注入 -->
+    <bean id="xmlcontructinstance" class="com.example.container.XMLInstance">
+        <constructor-arg index="1" ref="CleanAir"></constructor-arg>
+        <constructor-arg index="0" value="abc"></constructor-arg>
+    </bean>
+
+    <!--静态工厂方法  只需设置工厂方法对应的类，已经对应的工厂方法-->
+    <bean id="xmlfactoryinstance" class="com.example.container.XMLFactory"
+          factory-method="CreateStaticInstance"></bean>
+
+    <!--实例工厂方法 需要先实例化工厂类，再通过工厂类对象调用实例方法获取bean对象-->
+    <bean id="xmlfactory" class="com.example.container.XMLFactory"></bean>
+    <bean id="xmlfactroyinstance" factory-bean="xmlfactory"
+          factory-method="CreateInstance"></bean>
+
+    <bean id="customEditorConfigurer" class="com.example.container.CustomerProperty">
+        <property name="source">
+            <map>
+                <entry key="java.util.Date" value="com.example.container.CustomerProperty"/>
+            </map>
+        </property>
+    </bean>
+
+
+    <bean id="xmlCollectionsDemo''''                                                                                          x" class="com.example.container.XmlCollectionsDemo">
+        <property name="list">
+            <list>
+                <value>1</value>
+                <ref bean="CleanAir"/>
+                <bean class="com.example.example.CleanAir"/>
+            </list>
+        </property>
+        <property name="sets">
+            <set>
+                <value>1</value>
+                <ref bean="CleanAir"/>
+                <bean class="com.example.example.CleanAir"/>
+            </set>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="key1" value="1"></entry>
+                <entry key="key2" value-ref="CleanAir"></entry>
+                <entry key="key3">
+                    <bean class="com.example.example.CleanAir"/>
+                </entry>
+            </map>
+        </property>
+
+        <property name="pros">
+            <props>
+                <prop key="prokey1">prokeyA</prop>
+                <prop key="prokey2">prokeyB</prop>
+            </props>
+        </property>
+<!--        <property name="date" value="2018-8-20"/>-->
+    </bean>
+
+
+    <!--告诉Spring开启注解 只有开启之后@Autowired和@Resources这些
+     注解才能起作用-->
+    <context:annotation-config></context:annotation-config>
+    <!--或者采用如下方式开启注解-->
+    <context:component-scan base-package="org.example.container"/>
+
+
+    <bean id="user1" class="com.scope.UserBean"
+          destroy-method="myDestroy"
+          init-method="myInit">
+        <property name="name" value="abc"></property>
+    </bean>
+    <bean id="postProcessor" class="com.scope.CusBeanPostProcessor"/>
+
+
+
+
+
+
+
+
+
+
+    <bean id="aopInterceptor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="advice">
+            <bean class="com.Aop.AOPInterceptor"></bean>
+        </property>
+        <property name="mappedName" value="withAopMethod"></property>
+    </bean>
+    <bean id="aopService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="interceptorNames">
+            <list>
+                <value>aopInterceptor</value>
+            </list>
+        </property>
+        <property name="target">
+            <bean class="com.Aop.AOPServicesImpl">
+                <property name="description"
+                          value="basicAop"></property>
+
+            </bean>
+        </property>
+    </bean>
+
+
+
+
+
+
+
+</beans>
