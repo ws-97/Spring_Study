@@ -1,3 +1,13 @@
+运行步骤：
+1.双击
+![img.png](img.png)
+2.在浏览器输入
+http://localhost:8001/bbs/index.html
+
+
+
+
+
 使用数据库：
 use sampledb;
 

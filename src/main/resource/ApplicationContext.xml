@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="org.example.example"/>
+<!--    <context:component-scan base-package="org.example.example"/>-->
     <bean id="CleanAir" class="com.example.example.CleanAir">
         <qualifier value="cleanair"/>
     </bean>
@@ -89,7 +89,7 @@
      注解才能起作用-->
     <context:annotation-config></context:annotation-config>
     <!--或者采用如下方式开启注解-->
-    <context:component-scan base-package="org.example.container"/>
+<!--    <context:component-scan base-package="org.example.container"/>-->
 
 
     <bean id="user1" class="com.scope.UserBean"
